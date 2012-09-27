@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	$('#gallery a.fancybox').lightBox()); // Select all links with fancybox class
+
 	// $('a.fancybox').fancybox();
 
 	$('a.like').bind('click', function() {
