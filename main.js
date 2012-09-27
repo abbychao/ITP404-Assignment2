@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$('a.fancybox').lightBox()); // Select all links with fancybox class
+	$('a.fancybox').lightBox(); // Select all links with fancybox class
 
 	// $('a.fancybox').fancybox();
 
@@ -16,7 +16,4 @@ $(document).ready(function() {
 			$this.html("Liked!");
 		}
 	})
-
-	
-	
 });
